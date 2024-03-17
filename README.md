@@ -181,7 +181,7 @@ menu = {
     "Papas": Appetizer("Papas", 13000),
     "Alitas": Appetizer("Alitas", 25000),
     "Churazco": MainCourse("Churazco", 45000),
-    "Reve eye": MainCourse("Reve eye", 65000),
+    "Ribeye": MainCourse("Ribeye", 65000),
     "Salmon": MainCourse("Salmon", 55000),
     "Pasta Carbonara": MainCourse("Pasta Carbonara", 35000),
     "Pasta Bolognesa": MainCourse("Pasta Bolognesa", 35000),
@@ -191,7 +191,7 @@ order = Order()
 order.add_item(menu["Vino"], 1)
 order.add_item(menu["Alitas"], 1)
 order.add_item(menu["Churazco"], 1)
-order.add_item(menu["Reve eye"], 1)
+order.add_item(menu["Ribeye"], 1)
 
 bill = Bill(order)
 bill.print_bill()
